@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Shimmer Image Placeholder -->
+        <View
+            android:id="@+id/shimmerImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/shimmer_gradient" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Shimmer Title Lines -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="8dp">
+
+                <View
+                    android:id="@+id/shimmerTitle1"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="10"
+                    android:background="@drawable/shimmer_gradient" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="16dp">
+
+                <View
+                    android:id="@+id/shimmerTitle2"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="8"
+                    android:background="@drawable/shimmer_gradient" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+            <!-- Shimmer Description Lines -->
+            <View
+                android:id="@+id/shimmerDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="@drawable/shimmer_gradient"
+                android:layout_marginBottom="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginBottom="16dp">
+
+                <View
+                    android:id="@+id/shimmerDesc2"
+                    android:layout_width="0dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="9"
+                    android:background="@drawable/shimmer_gradient" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="16dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <!-- Shimmer Author and Date -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:weightSum="10">
+
+                <View
+                    android:id="@+id/shimmerAuthor"
+                    android:layout_width="0dp"
+                    android:layout_height="14dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/shimmer_gradient"
+                    android:layout_marginEnd="8dp" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="14dp"
+                    android:layout_weight="1" />
+
+                <View
+                    android:id="@+id/shimmerDate"
+                    android:layout_width="0dp"
+                    android:layout_height="14dp"
+                    android:layout_weight="4"
+                    android:background="@drawable/shimmer_gradient" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

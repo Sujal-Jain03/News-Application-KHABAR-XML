@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Color Palette -->
+
+    <color name="primary_container">#EADDFF</color>
+    <color name="on_primary_container">#21005D</color>
+
+    <!-- Secondary Color Palette -->
+
+    <color name="secondary_container">#E8DEF8</color>
+    <color name="on_secondary_container">#1D192B</color>
+
+    <!-- Tertiary Color Palette -->
+    <color name="tertiary">#7D5260</color>
+    <color name="on_tertiary">#FFFFFF</color>
+    <color name="tertiary_container">#FFD8E4</color>
+    <color name="on_tertiary_container">#31111D</color>
+
+    <!-- Surface Colors -->
+
+    <color name="surface_variant">#E7E0EC</color>
+    <color name="surface_tint">#6750A4</color>
+
+    <color name="on_surface_variant">#49454F</color>
+    <color name="inverse_surface">#313033</color>
+    <color name="inverse_on_surface">#F4EFF4</color>
+
+    <!-- Background Colors -->
+
+
+    <!-- Outline Colors -->
+    <color name="outline">#79747E</color>
+    <color name="outline_variant">#CAC4D0</color>
+
+    <!-- Error Colors -->
+
+    <color name="error_container">#FFDAD6</color>
+    <color name="on_error_container">#410002</color>
+
+    <!-- Success Colors -->
+    <color name="success">#00C853</color>
+    <color name="on_success">#FFFFFF</color>
+    <color name="success_container">#B9F6CA</color>
+    <color name="on_success_container">#003D0F</color>
+
+    <!-- Warning Colors -->
+    <color name="warning">#FF8F00</color>
+    <color name="on_warning">#FFFFFF</color>
+    <color name="warning_container">#FFECB3</color>
+    <color name="on_warning_container">#261900</color>
+
+    <!-- Info Colors -->
+    <color name="info">#2196F3</color>
+    <color name="on_info">#FFFFFF</color>
+    <color name="info_container">#E1F5FE</color>
+    <color name="on_info_container">#0D47A1</color>
+
+    <!-- Scrim and Shadow -->
+    <color name="scrim">#000000</color>
+    <color name="shadow">#000000</color>
+
+    <!-- Additional UI Colors -->
+    <color name="divider">#E0E0E0</color>
+    <color name="ripple">#1F000000</color>
+    <color name="disabled">#61000000</color>
+    <color name="disabled_alpha">#38000000</color>
+
+    <!-- Dark Theme Colors (Optional) -->
+    <color name="primary_dark">#D0BCFF</color>
+    <color name="on_primary_dark">#381E72</color>
+    <color name="primary_container_dark">#4F378B</color>
+    <color name="on_primary_container_dark">#EADDFF</color>
+
+    <color name="surface_dark">#1C1B1F</color>
+    <color name="surface_variant_dark">#49454F</color>
+    <color name="on_surface_dark">#E6E1E5</color>
+    <color name="on_surface_variant_dark">#CAC4D0</color>
+
+
+
+    <color name="outline_dark">#938F99</color>
+    <color name="outline_variant_dark">#49454F</color>
+
+    <!-- Custom Brand Colors (Optional) -->
+    <color name="brand_blue">#1976D2</color>
+    <color name="brand_green">#388E3C</color>
+    <color name="brand_orange">#F57C00</color>
+    <color name="brand_red">#D32F2F</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+
+    <!-- Social Media Brand Colors -->
+    <color name="google_red">#DB4437</color>
+    <color name="facebook_blue">#3B5998</color>
+    <color name="twitter_blue">#1DA1F2</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+
+    <!-- Legacy Colors for Compatibility -->
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primary_container</color>
+    <color name="colorAccent">@color/secondary</color>
+
+    <!-- Black and White -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F5F5F5</color>
+    <color name="dark_gray">#616161</color>
+
+    <color name="text_positive">#4CAF50</color>
+    <color name="text_negative">#F44336</color>
+    <color name="text_neutral">#607D8B</color>
+    <color name="text_highlight">#FFEB3B</color>
+    <color name="text_muted">#9E9E9E</color>
+
+    <!-- Dark Theme Text Colors -->
+    <color name="text_primary_dark">#E6E1E5</color>
+    <color name="text_secondary_dark">#CAC4D0</color>
+    <color name="text_tertiary_dark">#938F99</color>
+    <color name="text_disabled_dark">#61FFFFFF</color>
+    <color name="text_hint_dark">#99FFFFFF</color>
+    <color name="text_on_surface_dark">#E6E1E5</color>
+    <color name="text_on_background_dark">#E6E1E5</color>
+
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_text">#FFFFFF</color>
+
+    <color name="light_background">#FFFFFF</color>
+    <color name="light_surface">#F5F5F5</color>
+    <color name="light_text">#000000</color>
+
+
+
+    <color name="primary">#1976D2</color>
+    <color name="primary_variant">#1565C0</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- Profile colors -->
+    <color name="profile_background">#E3F2FD</color>
+    <color name="profile_icon">#1976D2</color>
+    <color name="profile_border">#BBDEFB</color>
+
+    <!-- News card colors -->
+    <color name="news_card_background">#FFFFFF</color>
+    <color name="news_title_color">#212121</color>
+    <color name="news_description_color">#757575</color>
+
+</resources>
+
